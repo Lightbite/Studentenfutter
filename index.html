@@ -327,7 +327,7 @@ body {
 
      $.getJSON('https://raw.githubusercontent.com/Lightbite/Studentenfutter/master/database.json', function(data) {
          $.each(data.dish, function(i, f) {
-            var tblRow = "<div class='blog-slider__item swiper-slide'><div class='blog-slider__img'><img src='" + f.image + "' alt=''></div><div class='blog-slider__content'><span class='blog-slider__code'>26 December 2019</span><div class='blog-slider__title'>" + f.name + "</div><div class='blog-slider__text'>" + f.description + "</div><a href='#' class='blog-slider__button'>READ MORE</a></div></div>"
+            var tblRow = "<div class='blog-slider__item swiper-slide'><div class='blog-slider__img'><img src='" + f.image + "' alt=''></div><div class='blog-slider__content'><span class='blog-slider__code'>26 December 2019</span><div class='blog-slider__title'>" + f.name + "</div><div class='blog-slider__text'>" + f.description + "</div></div></div>"
              $(tblRow).appendTo("#content");
        });
      });
