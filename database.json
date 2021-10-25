@@ -3,10 +3,7 @@
        {
            "name": "Gnocchi-Spinat-Auflauf",
            "description": "Den Spinat in der Sahne aufkochen lassen, mit Salz, Pfeffer und ein wenig rotem Thai-Curry würzen, mit Brühe nach und nach aufgießen. Die Gnocchi mit der gewürfelten Zwiebel kurz knusprig braten, das klein geschnittene Hähnchenfleisch ebenfalls. Gnocchi und Fleisch in eine Auflaufform geben, die Spinatsauce darauf verteilen. Den Mozzarella in Scheiben schneiden oder in Stücke rupfen und darüber streuen. Im vorgeheizten Ofen bei 180 °C Umluft in ca. 15 Minuten goldbraun überbacken.",
-           "ingredients": [
-               {
-                  "500 g": "Gnocchi aus dem Kühlregal"
-               }],
+           "ingredients": "Test",
            "time": 10
        }
    ]
