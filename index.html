@@ -7,21 +7,7 @@
   
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"> </script>
-
-  <script>
-      $(function() {
-        
-     var dish = [];
-
-     $.getJSON('https://raw.githubusercontent.com/Lightbite/Studentenfutter/master/database.json', function(data) {
-         $.each(data.dish, function(i, f) {
-            var tblRow = f.name 
-             $(tblRow).appendTo("#name");
-       });
-     });
-  });
-  </script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css"> 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
 
@@ -332,6 +318,21 @@ body {
 	}
 }
 </style>
+	
+<script>
+      $(function() {
+        
+     var dish = [];
+
+     $.getJSON('https://raw.githubusercontent.com/Lightbite/Studentenfutter/master/database.json', function(data) {
+         $.each(data.dish, function(i, f) {
+            var tblRow = "<span>" + f.name + "</span>" 
+             $(tblRow).appendTo("#name");
+       });
+     });
+  });
+</script>
+	
 </head>
 <body>
 
