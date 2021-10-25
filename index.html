@@ -334,26 +334,7 @@ body {
 </style>
 </head>
 <body>
-  <center> Henlo hier kommt 1 gute website hin 
-  
-  <div class="wrapper">
-<div class="profile">
-   <table id= "userdata" border="2">
-  <thead>
-            <th>Name</th>
-            <th>Beschreibung</th>
-            <th>Zutaten</th>
-            <th>Zeit</th>
-        </thead>
-      <tbody>
 
-       </tbody>
-   </table>
-
-</div>
-</div>
-    
-      
 <div class="blog-slider">
   <div class="blog-slider__wrp swiper-wrapper">
     <div class="blog-slider__item swiper-slide">
@@ -364,7 +345,23 @@ body {
       <div class="blog-slider__content">
         <span class="blog-slider__code">26 December 2019</span>
         <div class="blog-slider__title">Lorem Ipsum Dolor</div>
-        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+        <div class="blog-slider__text">
+		<div class="wrapper">
+		<div class="profile">
+		   <table id= "userdata" border="2">
+			 <thead>
+			    <th>Name</th>
+			    <th>Beschreibung</th>
+			    <th>Zutaten</th>
+			    <th>Zeit</th>
+			</thead>
+		      <tbody>
+		       </tbody>
+		   </table>
+		</div>
+		</div>
+	
+	 </div>
         <a href="#" class="blog-slider__button">READ MORE</a>
       </div>
     </div>
@@ -396,8 +393,7 @@ body {
   <div class="blog-slider__pagination"></div>
 </div>
       
-  </center>
-  
+
 <script>
   var swiper = new Swiper('.blog-slider', {
       spaceBetween: 30,
