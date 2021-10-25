@@ -12,7 +12,7 @@
         
      var dish = [];
 
-     $.getJSON('/database.json', function(data) {
+     $.getJSON('https://raw.githubusercontent.com/Lightbite/Studentenfutter/master/database.json', function(data) {
          $.each(data.dish, function(i, f) {
             var tblRow = "<tr>" + "<td>" + f.name + "</td>" +
              "<td>" + f.description + "</td>" + "<td>" + "test" + "</td>" + "<td>" + f.time + "</td>" + "</tr>"
