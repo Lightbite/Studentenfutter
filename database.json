@@ -19,6 +19,26 @@
                             {
                               "amount": "1",
                               "ingredient":"Zwiebel"
+                            },
+                            {
+                              "amount": "200 g",
+                              "ingredient":"Blattspinat, TK"
+                            },
+                            {
+                              "amount": "200 g",
+                              "ingredient":"Sahne"
+                            },
+                            {
+                              "amount": "200 ml",
+                              "ingredient":"Gemüsebrühe"
+                            },
+                            {
+                              "amount": "wenig",
+                              "ingredient":"Thai-Currypulver, rotes"
+                            },
+                            {
+                              "amount": "etwas",
+                              "ingredient":"Salz und Pfeffer"
                             }
                           ],
            "time": 10
