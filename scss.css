@@ -6,7 +6,7 @@ body {background-color:#fd3838;background-image:linear-gradient(147deg,  #FFE53B
   @media screen and (max-width: 1500px){
     .blog-slider{max-width:1500px;height:400px }}
   @media screen and (max-width: 1500px){
-    .blog-slider{ min-height:500px;height:auto;margin:180px auto }}
+    .blog-slider{ min-height:300px;height:auto;margin:180px auto }}
   @media screen and (max-height: 500px) and (min-width: 1500px){
     .blog-slider{ height:350px }}
     .blog-slider__item{ display:flex;align-items:center }
