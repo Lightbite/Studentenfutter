@@ -40,7 +40,7 @@ tbody tr:nth-child(odd) {
        $.getJSON('https://raw.githubusercontent.com/Lightbite/Studentenfutter/master/database.json', function(data) {
 
        $.each(data.dish, function(i, f) {
-         var table_content = "<table>";
+         var table_content = "<table class='blog-slider__table'>";
          $.each(f.ingredients, function(i, g) {
            table_content = table_content + "<tr><td class='left'>" + g.amount + "</td><td class='right'>" + g.ingredient +"</td></tr>";
          });
