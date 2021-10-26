@@ -9,6 +9,21 @@
   <link rel="stylesheet prefetch" href="https://preview.codepad.co/css/normalize.min.css"/>
   <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css"/>
 
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 15px;
+}
+th, td {
+  padding: 0.25rem;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+</style>
 
 </head>
 <body>
@@ -19,7 +34,7 @@
 
        $.getJSON('https://raw.githubusercontent.com/Lightbite/Studentenfutter/master/database.json', function(data) {
        $.each(data.dish, function(i, f) {
-         var card = "<div class='blog-slider__item swiper-slide'><div class='blog-slider__img'><img src='" + f.image + "' alt=''></div><div class='blog-slider__content'><div class='blog-slider__title'>" + f.name + "</div><div class='blog-slider__text'>" + f.description + "</div></div></div>"
+         var card = "<div class='blog-slider__item swiper-slide'><div class='blog-slider__img'><img src='" + f.image + "' alt=''></div><div class='blog-slider__content'><div class='blog-slider__title'>" + f.name + "</div><table style='width:100%'><tr><td>500g</td><td>Milch</td></tr><tr><td>200g</td><td>Tomaten</td></tr></table><div class='blog-slider__text'>" + f.description + "</div></div></div>"
          $(card).appendTo("#content");
        });
       });
