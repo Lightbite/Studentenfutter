@@ -4,8 +4,10 @@
            "image": "https://img.chefkoch-cdn.de/rezepte/831281187765616/bilder/1340696/crop-960x640/gnocchi-spinat-auflauf-mit-haehnchen-und-curry.jpg",
            "name": "Gnocchi-Spinat-Auflauf",
            "description": "Den Spinat in der Sahne aufkochen lassen, mit Salz, Pfeffer und ein wenig rotem Thai-Curry würzen, mit Brühe nach und nach aufgießen. Die Gnocchi mit der gewürfelten Zwiebel kurz knusprig braten, das klein geschnittene Hähnchenfleisch ebenfalls. Gnocchi und Fleisch in eine Auflaufform geben, die Spinatsauce darauf verteilen. Den Mozzarella in Scheiben schneiden oder in Stücke rupfen und darüber streuen. Im vorgeheizten Ofen bei 180 °C Umluft in ca. 15 Minuten goldbraun überbacken.",
-           "ingredients": [
-                            {
+           "ingredients": {
+                              "batter":
+                                 [
+                                    {
                               "amount": "500g",
                               "ingredient":"Gnocchi aus dem Kühlregal",
                             },
@@ -21,7 +23,8 @@
                               "amount": "1",
                               "ingredient":"Zwiebel",
                             }
-                          ],
+                                 ]
+                           },
            "time": 10
        },
       {
