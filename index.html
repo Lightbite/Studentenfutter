@@ -20,6 +20,15 @@
   });
 	
 </script>
+<script>
+$( document ).ready(function() {
+console.log( "document loaded" );
+});
+
+$( window ).on( "load", function() {
+console.log( "window loaded" );
+});
+</script>
  
 <link rel="stylesheet prefetch" href="https://preview.codepad.co/css/normalize.min.css"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -34,7 +43,7 @@
 </style>
 	
 </head>
-<body onload="load_content();">
+<body>
 
 <div class="blog-slider">
   <div id="content" class="blog-slider__wrp swiper-wrapper">
