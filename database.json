@@ -48,8 +48,32 @@
            "name": "Curry Wurst",
            "description": "Cola so machen Ketchup so und Curry so.",
            "ingredients": [ {
-                              "amount": "100g",
-                              "ingredient":"Placeholder"
+                              "amount": "4000 ml",
+                              "ingredient":"Ketchup"
+                            },
+                            {
+                              "amount": "3 Liter",
+                              "ingredient":"Cola"
+                            },
+                            {
+                              "amount": "5 EL",
+                              "ingredient":"Worchester Sauce"
+                            },
+                            {
+                              "amount": "2 EL",
+                              "ingredient":"Sojasauce"
+                            },
+                            {
+                              "amount": "4 EL",
+                              "ingredient":"Currypulver"
+                            },
+                            {
+                              "amount": "2 EL",
+                              "ingredient":"Chilli flocken"
+                            },
+                            {
+                              "amount": "200 g",
+                              "ingredient":"Bratwurst"
                             }
                           ],
            "time": 10
