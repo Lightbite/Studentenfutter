@@ -46,13 +46,13 @@
       {
            "image": "https://img.chefkoch-cdn.de/rezepte/3079721460635926/bilder/899788/crop-960x640/berliner-currywurstsauce.jpg",
            "name": "Curry Wurst",
-           "description": "Cola so machen Ketchup so und Curry so.",
+           "description": "Die Cola abkochen bis die Konsistenz zäh wird. Anschließend Ketchup, Worchester Sauce und Sojasauce hinzugeben. Mit Currypulver und Chilliflocken abschmecken und 10 min ziehen lassen.",
            "ingredients": [ {
-                              "amount": "4000 ml",
+                              "amount": "1000 ml",
                               "ingredient":"Ketchup"
                             },
                             {
-                              "amount": "3 Liter",
+                              "amount": "500 ml",
                               "ingredient":"Cola"
                             },
                             {
