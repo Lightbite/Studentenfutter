@@ -21,6 +21,8 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
 <script type="text/javascript">
      $(function load_content()  {
+	     
+     console.log( "loading contents" );
 
      var dish = [];
 
@@ -33,16 +35,7 @@
   });
 	
 </script>
-<script>
-$( document ).ready(function() {
-console.log( "document loaded" );
-});
 
-$( window ).on( "load", function() {
-console.log( "window loaded" );
-});
-</script>
- 
 
 </head>
 <body>
@@ -57,6 +50,7 @@ console.log( "window loaded" );
       
 
 <script type="text/javascript">
+    console.log( "slider called" );
     var swiper = new Swiper('.blog-slider', {
       spaceBetween: 30,
       effect: 'fade',
