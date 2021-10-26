@@ -35,8 +35,14 @@ tbody tr:nth-child(odd) {
        var dish = [];
 
        $.getJSON('https://raw.githubusercontent.com/Lightbite/Studentenfutter/master/database.json', function(data) {
+
        $.each(data.dish, function(i, f) {
-         var card = "<div class='blog-slider__item swiper-slide'><div class='blog-slider__img'><img src='" + f.image + "' alt=''></div><div class='blog-slider__content'><div class='blog-slider__title'>" + f.name + "</div><table style='width:100%'><tr><td>500g</td><td>Milch</td></tr><tr><td>200g</td><td>Tomaten</td></tr></table><div class='blog-slider__text'>" + f.description + "</div></div></div>"
+         var table_content = "<table>";
+         $.each(f.ingredients, function(i, g) {
+           table_content = table_content + "<tr><td>" + g.amount + "</td><td>" + g.ingredient +"</td></tr>";
+         });
+         table_content = table_content + "</table>"
+         var card = "<div class='blog-slider__item swiper-slide'><div class='blog-slider__img'><img src='" + f.image + "' alt=''></div><div class='blog-slider__content'><div class='blog-slider__title'>" + f.name + "</div>" + table_content + "<div class='blog-slider__text'>" + f.description + "</div></div></div>"
          $(card).appendTo("#content");
        });
       });
