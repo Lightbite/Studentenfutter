@@ -33,7 +33,7 @@ body {background-color:#fd3838;background-image:linear-gradient(147deg,  #FFE53B
     .blog-slider__img:after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-image:linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);border-radius:20px;opacity:0}
     .blog-slider__img img{width:100%;height:100%;object-fit:cover;display:block;opacity:0;border-radius:20px;transition:all .3s}
   @media screen and (max-width: 1500px){.blog-slider__img{transform:translateY(-50%);width:90%}}
-  @media screen and (max-width: 1500px){.blog-slider__img{width:95%} .blog-slider__table{font-size: 28px;}  .blog-slider__title{font-size: 35px;} .blog-slider__text{font-size: 24px;}}
+  @media screen and (max-width: 1500px){.blog-slider__img{width:95%} .blog-slider__table{font-size: 28px;}  .blog-slider__title{font-size: 35px;} .blog-slider__text{font-size: 24px;text-align: justify;}}
   @media screen and (max-height: 500px) and (min-width: 1500px){.blog-slider__img{height:270px}}
     .blog-slider__content{padding-right:25px}
   @media screen and (max-width: 1500px){.blog-slider__content{margin-top:-80px;text-align:center;padding:0 30px}}
