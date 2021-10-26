@@ -27,14 +27,22 @@
            "image": "https://img.chefkoch-cdn.de/rezepte/3079721460635926/bilder/899788/crop-960x640/berliner-currywurstsauce.jpg",
            "name": "Curry Wurst",
            "description": "Cola so machen Ketchup so und Curry so.",
-           "ingredients": "Test",
+           "ingredients": [ {
+                              "amount": "100g",
+                              "ingredient":"Placeholder"
+                            }
+                          ],
            "time": 10
        },
       {
            "image": "https://img.chefkoch-cdn.de/rezepte/18351004366867/bilder/1205887/crop-960x640/kartoffelsuppe.jpg",
            "name": "Kartoffelsuppe",
            "description": "Wiener und Kartoffel in Topf machen + Karotte.",
-           "ingredients": "Test",
+           "ingredients": [ {
+                              "amount": "100g",
+                              "ingredient":"Placeholder"
+                            }
+                          ],
            "time": 10
        }
    ]
