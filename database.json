@@ -4,21 +4,56 @@
            "image": "https://img.chefkoch-cdn.de/rezepte/831281187765616/bilder/1340696/crop-960x640/gnocchi-spinat-auflauf-mit-haehnchen-und-curry.jpg",
            "name": "Gnocchi-Spinat-Auflauf",
            "description": "Den Spinat in der Sahne aufkochen lassen, mit Salz, Pfeffer und ein wenig rotem Thai-Curry würzen, mit Brühe nach und nach aufgießen. Die Gnocchi mit der gewürfelten Zwiebel kurz knusprig braten, das klein geschnittene Hähnchenfleisch ebenfalls. Gnocchi und Fleisch in eine Auflaufform geben, die Spinatsauce darauf verteilen. Den Mozzarella in Scheiben schneiden oder in Stücke rupfen und darüber streuen. Im vorgeheizten Ofen bei 180 °C Umluft in ca. 15 Minuten goldbraun überbacken.",
-           "ingredients": "Test",
+           "ingredients": [
+                            {
+                              "amount": "500g",
+                              "ingredient":"Gnocchi aus dem Kühlregal",
+                            },
+                            {
+                              "amount": "1 Kugel",
+                              "ingredient":"Mozzarella ",
+                            },
+                            {
+                              "amount": "300 g",
+                              "ingredient":"Hähnchenfleisch oder Putenfleisch",
+                            },
+                            {
+                              "amount": "1",
+                              "ingredient":"Zwiebel",
+                            }
+                          ],
            "time": 10
        },
       {
            "image": "https://img.chefkoch-cdn.de/rezepte/3079721460635926/bilder/899788/crop-960x640/berliner-currywurstsauce.jpg",
            "name": "Curry Wurst",
            "description": "Cola so machen Ketchup so und Curry so.",
-           "ingredients": "Test",
+           "ingredients": [
+                            {
+                              "amount": "500g",
+                              "ingredient":"Gnocchi aus dem Kühlregal",
+                            },
+                            {
+                              "amount": "1 Kugel",
+                              "ingredient":"Mozzarella ",
+                            }
+                          ],
            "time": 10
        },
       {
            "image": "https://img.chefkoch-cdn.de/rezepte/18351004366867/bilder/1205887/crop-960x640/kartoffelsuppe.jpg",
            "name": "Kartoffelsuppe",
            "description": "Wiener und Kartoffel in Topf machen + Karotte.",
-           "ingredients": "Test",
+           "ingredients": [
+                            {
+                              "amount": "500g",
+                              "ingredient":"Gnocchi aus dem Kühlregal",
+                            },
+                            {
+                              "amount": "1 Kugel",
+                              "ingredient":"Mozzarella ",
+                            }
+                          ],
            "time": 10
        }
    ]
