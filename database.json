@@ -48,11 +48,11 @@
            "name": "Currywurst",
            "description": "Die Cola abkochen bis die Konsistenz zäh wird. Anschließend Ketchup, Worchester Sauce und Sojasauce hinzugeben. Mit Currypulver und Chilliflocken abschmecken und 10 min ziehen lassen.",
            "ingredients": [ {
-                              "amount": "1000 ml",
+                              "amount": "500 ml",
                               "ingredient":"Ketchup"
                             },
                             {
-                              "amount": "500 ml",
+                              "amount": "250 ml",
                               "ingredient":"Cola"
                             },
                             {
@@ -74,7 +74,12 @@
                             {
                               "amount": "350 g",
                               "ingredient":"Bratwurst"
+                            },
+                            {
+                              "amount": "1000 g",
+                              "ingredient":"Pommes"
                             }
+
                           ],
            "time": 10
        },
